@@ -1,7 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Basic from "./example/Basic.js";
+import Basic from "./Screens/Basic.js";
 
 function App() {
   return <Basic />;

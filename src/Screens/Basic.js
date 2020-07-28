@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import { PropTypes } from "prop-types";
-//import moment from 'moment'
-//import 'moment/locale/zh-cn';
-// import 'antd/lib/style/index.less';     //Add this code for locally example
 import Scheduler, {
   SchedulerData,
   ViewTypes,
@@ -11,10 +8,7 @@ import Scheduler, {
   CellUnits,
   DATETIME_FORMAT,
 } from "../Scheduler.js";
-// import Nav from "./Nav";
-// import Tips from "./Tips";
-// import ViewSrcCode from "./ViewSrcCode";
-import withDragDropContext from "./withDnDContext";
+import withDragDropContext from "../example/withDnDContext";
 import { tuple } from "antd/lib/_util/type";
 import "antd/dist/antd.css";
 import {
@@ -38,20 +32,20 @@ import {
   ExclamationCircleOutlined,
   CheckOutlined,
 } from "@ant-design/icons";
-import "./App.css";
+import "../App.css";
 import moment from "moment";
 import { Formik } from "formik";
 import * as Yup from "yup";
 import validator from "validator";
 import { TiArrowBack, TiPlus } from "react-icons/ti";
 import { GrFormClose } from "react-icons/gr";
-import AddResourceForm from "./AddResourceForm";
-import ManageResource from "./ManageResourceModal";
-import ManageResourceModal from "./ManageResourceModal";
+import AddResourceForm from "../example/AddResourceForm";
+import ManageResource from "../example/ManageResourceModal";
+import ManageResourceModal from "../example/ManageResourceModal";
 import TextArea from "antd/lib/input/TextArea";
-import EventItemCustomPopover from "./EventItemCustomPopover.js";
-import SearchReservations from "./SearchReservations.js";
-import ReservationDetailModal from "./ReservationDetailModal.js";
+import EventItemCustomPopover from "../example/EventItemCustomPopover.js";
+import SearchReservations from "../example/SearchReservations.js";
+import ReservationDetailModal from "../example/ReservationDetailModal.js";
 
 // import "../css/style.css";
 
@@ -352,12 +346,7 @@ class Basic extends Component {
 
     return (
       <div>
-        {/* <Nav /> */}
         <div>
-          {/* <h3 style={{ textAlign: "center" }}>
-            Basic example
-            <ViewSrcCode srcCodeUrl="https://github.com/StephenChou1017/react-big-scheduler/blob/master/example/Basic.js" />
-          </h3> */}
           <Scheduler
             schedulerData={viewModel}
             prevClick={this.prevClick}
