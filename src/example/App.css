@@ -1,0 +1,186 @@
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.modal-header {
+  flex: 1;
+  background-color: #2d8acd;
+  min-height: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 20px 23px 0px 23px;
+  font-size: 14px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal-header .start-end-date {
+  margin: 0;
+}
+
+.modal-header .addommodation-total-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-right: 10px;
+}
+
+.modal-body {
+  flex: 1;
+  background-color: white;
+  border-radius: 20px;
+  height: 100%;
+  padding-top: 1rem;
+  font-size: 16px;
+}
+
+.modal-body-option-ul {
+  list-style: square;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.modal-body-option-ul li:hover {
+  color: #2d8acd;
+}
+
+.form-name-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.5rem;
+}
+
+.default-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.5rem;
+}
+
+.field {
+  margin-top: 1.5rem;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.field label::after {
+  content: " *";
+}
+
+.field label[for="email"]::after {
+  content: "";
+}
+
+.modal-custom-footer {
+  border-top: 0.8px solid lightgray;
+  display: flex;
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  justify-content: flex-end;
+}
+.modal-custom-footer .btn {
+  margin-right: 0.8rem;
+}
+
+.popover-calendar {
+  width: 300px;
+}
+
+.popover-calendar .ant-calendar {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0) !important;
+}
+.popover-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Change Room Modal */
+
+.modal-room-class-change-header {
+  margin: 1rem;
+  min-height: 50px;
+  border: 1px solid #c79c9d;
+  background-color: #d0bfc0;
+  padding: 1rem;
+}
+.modal-room-class-change-header h4 {
+  color: #a34242;
+}
+.modal-room-class-table-header {
+  background-color: #c0c0c0;
+}
+.modal-room-class-table-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding: 1rem;
+  font-weight: 600;
+}
+.modal-room-class-table-header .modal-room-class-table-row {
+  font-weight: 400;
+}
+.modal-room-class-table-body {
+  background-color: #d7d7d7;
+}
+.modal-room-class-table-row td {
+  flex: 1;
+}
+
+.modal-room-class-table-row td:nth-child(4) {
+  text-align: center;
+}
+
+/* Event Item styles */
+
+.to-charge-alert-icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: red;
+  position: absolute;
+  top: -5px;
+  right: 0.8rem;
+  border-radius: 100px;
+  transform: skew(30deg);
+}
+.event-note-icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #f8c638;
+  position: absolute;
+  top: -5px;
+  right: 1.8rem;
+  border-radius: 100px;
+  transform: skew(30deg);
+}
+
+/* .ant-popover-open {
+} */
+
+.reservationnotestoggler:hover {
+  text-decoration: underline;
+}
+.reservationnotestoggler {
+  cursor: pointer;
+}
+
+/* Menu Bar Option */
+
+.menu-bar-option:hover {
+  color: #2d8acd;
+  cursor: pointer;
+}
