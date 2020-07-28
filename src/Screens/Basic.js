@@ -8,7 +8,7 @@ import Scheduler, {
   CellUnits,
   DATETIME_FORMAT,
 } from "../Scheduler.js";
-import withDragDropContext from "../example/withDnDContext";
+import withDragDropContext from "../components/withDnDContext";
 import { tuple } from "antd/lib/_util/type";
 import "antd/dist/antd.css";
 import {
@@ -39,13 +39,13 @@ import * as Yup from "yup";
 import validator from "validator";
 import { TiArrowBack, TiPlus } from "react-icons/ti";
 import { GrFormClose } from "react-icons/gr";
-import AddResourceForm from "../example/AddResourceForm";
-import ManageResource from "../example/ManageResourceModal";
-import ManageResourceModal from "../example/ManageResourceModal";
+import AddResourceForm from "../components/AddResourceForm";
+import ManageResource from "../components/ManageResourceModal";
+import ManageResourceModal from "../components/ManageResourceModal";
 import TextArea from "antd/lib/input/TextArea";
-import EventItemCustomPopover from "../example/EventItemCustomPopover.js";
-import SearchReservations from "../example/SearchReservations.js";
-import ReservationDetailModal from "../example/ReservationDetailModal.js";
+import EventItemCustomPopover from "../components/EventItemCustomPopover.js";
+import SearchReservations from "../components/SearchReservations.js";
+import ReservationDetailModal from "../components/ReservationDetailModal.js";
 
 // import "../css/style.css";
 

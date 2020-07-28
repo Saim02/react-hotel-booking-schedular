@@ -59,8 +59,8 @@ import "./css/style.css";
 import "antd/dist/antd.css";
 
 import legendImage from "./legend.png";
-import SearchReservations from "./example/SearchReservations";
-import SideMenuBar from "./example/SideMenuBar";
+import SearchReservations from "./components/SearchReservations";
+import SideMenuBar from "./components/SideMenuBar";
 const RadioButton = Radio.Button;
 const RadioGroup = Radio.Group;
 

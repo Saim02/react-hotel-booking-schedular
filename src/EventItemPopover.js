@@ -3,7 +3,7 @@ import { PropTypes } from "prop-types";
 import Col from "antd/lib/col";
 import Row from "antd/lib/row";
 import "antd/lib/grid/style/index.css";
-import EventItemCustomPopover from "./example/EventItemCustomPopover";
+import EventItemCustomPopover from "./components/EventItemCustomPopover";
 
 class EventItemPopover extends Component {
   constructor(props) {
