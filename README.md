@@ -6,7 +6,7 @@ A calendar where user can create or manage hotel reservations using simple drag 
   <iframe width="360" height="197" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/4cpigd" >
 </iframe> -->
 
-<img src="https://media0.giphy.com/media/g04lCCTUHSw03W7pqD/200_d.gif" />
+<img src="https://imgflip.com/gif/4cpigd.gif" />
 
 </div><p><a href="https://imgflip.com/gif/4cpigd">via Imgflip</a></p></div>
 
