@@ -2,7 +2,7 @@
 
 A calendar where user can create or manage hotel reservations using simple drag and drop. User can change check-in or check-out dates and can also extend and group reservations. Reservations can be searched by names.
 
-<img src="https://imgflip.com/gif/4cpftq" title="via imgflip" />
+<img src="https://imgflip.com/gif/4cph37" title="via imgflip" />
 
 ## View Example
 
